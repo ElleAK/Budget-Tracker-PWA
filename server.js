@@ -4,11 +4,7 @@ const mongoose = require("mongoose");
 const compression = require("compression");
 
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
-// mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/', {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// });
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:127.0.0.1/budget";
 
 const app = express();
 
@@ -24,19 +20,6 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false
 });
-// mongoose.connect(
-//   process.env.MONGODB_URI || "mongodb://localhost/budget", {
-//   useNewUrlParser: true,
-//   useFindAndModify: false
-// });
-
-//Connect to mongodb atlas and server
-// mongoose.connect("mongodb://localhost/budget", {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useCreateIndex: true,
-//     useFindAndModify: false
-// });
 
 // routes
 app.use(require("./routes/api.js"));
