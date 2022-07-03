@@ -34,7 +34,7 @@
   #### https://safe-brook-79307.herokuapp.com/
 
   ## Screenshot: 
-  ![Alt text](http://public/screenshot.png)
+  ![Image](/public/screenshot.png)
 
 
 
