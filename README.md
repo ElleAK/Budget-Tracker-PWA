@@ -22,7 +22,7 @@
   #### To use this application first clone the repository and navigate to the root folder in the command-line. Install Express and Mongoose, type npm start to start run the Budget Tracker. 
 
   ## Technologies:
-  #### Javascript, Node
+  #### Javascript, Node, MongoDB
 
   ## Contributing:
   #### Will not be accepting contributions at this time.
