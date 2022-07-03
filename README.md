@@ -8,6 +8,7 @@
   - [Contributing](#contributing)
   - [Author](#author)
   - [Website](#link)
+  - [Screenshot](#screenshot)
   - [License](#license)
   - [Questions](#questions)
 
@@ -29,8 +30,13 @@
   ## Author:
   #### Lindsey Kelly
 
-  ## Deployed Site:
-  #### https://github.com/ElleAK/README-Generator
+  ## Deployed Site at Heroku:
+  #### https://safe-brook-79307.herokuapp.com/
+
+  ## Screenshot: 
+  ![Alt text](http://public/screenshot.png)
+
+
 
   ## License: ![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)
   #### https://opendatacommons.org/licenses/pddl/
