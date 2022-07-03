@@ -1,7 +1,7 @@
 // variable to hold db connection
 let db;
 // connection to IndexedDB database 
-const request = indexedDB.open('PWA-19', 1);
+const request = indexedDB.open('budget', 1);
 
 // this event will emit if the database version changes
 request.onupgradeneeded = function(event) {

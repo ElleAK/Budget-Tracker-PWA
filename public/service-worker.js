@@ -6,7 +6,8 @@ const FILES_TO_CACHE = [
     "/index.html",
     "/js/idb.js",
     "/js/index.js",
-    "/css/styles.css"
+    "/css/styles.css",
+    
 ];
 
   // Cache resources
