@@ -14,10 +14,9 @@ request.onupgradeneeded = function(event) {
 
   // upon a successful 
 request.onsuccess = function(event) {
-    // db is successfully created with its object store established a connection 
+    // db successfully created with its object store, established a connection 
     //save reference to db in global variable
     db = event.target.result;
-  
     // if app is online run uploadTransaction() to send all local db data to api
     if (navigator.onLine) {
         uploadTransaction();
@@ -41,10 +40,8 @@ function saveRecord(record) {
   function uploadTransaction() {
     // open a transaction on your db
     const transaction = db.transaction(['new_transaction'], 'readwrite');
-  
     // access object store
     const transactionObjectStore = transaction.objectStore('new_transaction');
-  
     // get all records from store and set to a variable
     const getAll = transactionObjectStore.getAll();
   
